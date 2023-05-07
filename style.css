@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+}
+
+.btn-add,
+.btn-del {
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    margin: 0px 5px;
+    border: 3px solid transparent;
+}
+
+.btn-add:hover,
+.btn-del:hover {
+    border: 3px solid black;
+}
+
+
+.btn-add {
+    background-color: greenyellow;
+}
+
+.btn-del {
+    background-color: rgb(255, 77, 77);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-clear-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.resume,
+.clear {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+}
+
+.resume:hover,
+.clear:hover {
+    border: 3px solid black;
+}
+
+.resume {
+    background-color: aqua;
+
+
+}
+
+.clear {
+    background-color: rgb(250, 104, 0);
+
+}

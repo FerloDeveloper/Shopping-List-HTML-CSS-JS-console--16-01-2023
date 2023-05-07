@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Questrial&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lista della spesa</h1>
+    <div class="container">
+        <div class="food">
+            <img class="img-size" src="img/cake.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(cake)">ADD</button>
+                <button class="btn-del" onclick="delFood(cake)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/donut.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(donuts)">ADD</button>
+                <button class="btn-del" onclick="delFood(donuts)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/hamburger.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(hamburger)">ADD</button>
+                <button class="btn-del" onclick="delFood(hamburger)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/nigiri.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(sushi)">ADD</button>
+                <button class="btn-del" onclick="delFood(sushi)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/pizza.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(pizza)">ADD</button>
+                <button class="btn-del" onclick="delFood(pizza)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/salad.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(salad)">ADD</button>
+                <button class="btn-del" onclick="delFood(salad)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/spaghetti.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(spaghetti)">ADD</button>
+                <button class="btn-del" onclick="delFood(spaghetti)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/taco.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(taco)">ADD</button>
+                <button class="btn-del" onclick="delFood(taco)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/tteok.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(tteok)">ADD</button>
+                <button class="btn-del" onclick="delFood(tteok)">REMOVE</button>
+            </div>
+        </div>
+        <div class="food">
+            <img class="img-size" src="img/bread.png" alt="">
+            <div class="add-del">
+                <button class="btn-add" onclick="addFood(bread)">ADD</button>
+                <button class="btn-del" onclick="delFood(bread)">REMOVE</button>
+            </div>
+        </div>
+    </div>
+    <div class="res-clear-container">
+        <button class="resume" onclick="resume(foodList)">RESUME</button>
+        <button class="clear" onclick="clearFood(foodList)">CLEAR</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
